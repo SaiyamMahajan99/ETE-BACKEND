@@ -97,7 +97,7 @@ function delet()
     //     alert(c[i].textContent);
     // }
     var xhttp1 = new XMLHttpRequest();
-    xhttp1.open("DELETE", "https://userdetailsbybal.herokuapp.com/deleteuser", true);
+    xhttp1.open("DELETE", "https://endtermbackend.herokuapp.com/deleteuser", true);
     // xhttp1.open("DELETE", "http://localhost:8080/deleteuser", true);
     xhttp1.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -167,7 +167,7 @@ function updatedata()
     let ph_no=document.getElementById("ph_no").value;
 
     var xhttp = new XMLHttpRequest();
-   xhttp.open("PUT", "https://userdetailsbybal.herokuapp.com/update", true);
+   xhttp.open("PUT", "https://endtermbackend.herokuapp.com/update", true);
      // xhttp.open("PUT", "http://localhost:8080/update", true);
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {

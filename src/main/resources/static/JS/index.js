@@ -17,7 +17,7 @@ function adddata()
             if(this.responseText==="false")
             {
                  alert("UserInvalid");
-                window.location="https://userdetailsbybal.herokuapp.com/"
+                window.location="https://endtermbackend.herokuapp.com/"
                  // window.location="http://localhost:8080/"
                 return
             }
